@@ -1,0 +1,50 @@
+{
+  "name": "@moon214/tinyagi-bailian-provider",
+  "version": "1.0.0",
+  "description": "阿里云百炼 (Bailian) Provider 插件 for TinyAGI - 支持通义千问 Qwen 系列模型",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "eslint src/**/*.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "tinyagi",
+    "tinyclaw",
+    "provider",
+    "plugin",
+    "bailian",
+    "阿里云",
+    "百炼",
+    "qwen",
+    "通义千问"
+  ],
+  "author": "moon214",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moon214/tinyagifennzhi.git"
+  },
+  "peerDependencies": {
+    "@tinyclaw/types": ">=0.0.13"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0",
+    "eslint": "^8.55.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
